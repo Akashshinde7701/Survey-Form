@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+
+<link rel="stylesheet" href="form.css">
+    
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title">
+                Survey form
+            </h1>
+            <p id="descriptionn">
+                Feel Free To Answer The Questions Below Based On Your Own Experience And Opinion. If You Are Not Convenient In Answering A Particular Question Please Skip It By Answering "No". Every Answer Would Be Very Appreciated. Thank You For Your Time.
+
+            </p>
+
+        </header>
+        <form action="" id="survey-form">
+            <div class="from-group">
+                <label for="name">Your Name</label>
+                <input type="text"
+                name="name" id="name"
+                class="formcControl"
+                placeholder="Enter your name"
+                required>
+            </div>
+
+
+            <div class="from-group">
+                <label for="email">Your Email Adreess</label>
+                <input type="email"
+                name="email" id="email"
+                class="formcControl"
+                placeholder="user@user.com" required>
+            </div>
+
+            <div class="from-group">
+                <label for="Phone">Your Phone Number</label>
+                <input type="number"
+                name="Phone" id="Phone"
+                class="formcControl"
+                placeholder="9999999999" required>
+            </div>
+
+            <div class="form-control">
+                <label for="Location" id="Location">
+                   Where Do You Live?
+                </label>
+    
+                <select name="Location" id="Location">
+                    <option value="select"> Select </option>
+                    <option value="Pune"> Pune </option>
+                    <option value="Mumbai"> Mumbai </option>
+                    <option value="Nashik"> Nashik </option>
+                    <option value="other"> Other </option>
+                </select>
+            </div>
+
+            <div class="form-control">
+                <label>
+                Age
+                </label>
+
+                <label for="recommed-1">
+                    <input type="radio" id="recommed-1" 
+                           name="recommed">11-20
+                      </input>
+                </label>
+
+                <label for="recommed-2">
+                    <input type="radio" id="recommed-2" 
+                           name="recommed">21-30
+                      </input>
+                </label>
+
+                <label for="recommed-3">
+                    <input type="radio" id="recommed-3" 
+                           name="recommed">31-40
+                      </input>
+                </label>
+
+                <label for="recommed-4">
+                    <input type="radio" id="recommed-3" 
+                           name="recommed">41-50
+                      </input>
+                </label>
+                <label for="recommed-5">
+                    <input type="radio" id="recommed-3" 
+                           name="recommed">prefer not to say
+                      </input>
+                </label>
+            </div>
+      
+        </form>
+        <div class="form-control">
+            <label>
+               How Would you rate your proficiency in coding?
+            </label>
+
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="radio" id="recommed-1" 
+                       name="recommed">Beginner
+                  </input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio" id="recommed-2" 
+                       name="recommed">Intermediate
+                  </input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio" id="recommed-3" 
+                       name="recommed">Advanced
+                  </input>
+            </label>
+        </div>
+        
+        <div class="form-control">
+            <label>
+          Have you ever Appered in Any coding contest?
+            </label>
+
+            <label for="recommed-1">
+                <input type="radio" id="recommed-1" 
+                       name="recommed">Yes
+                  </input>
+            </label>
+
+            <label for="recommed-2">
+                <input type="radio" id="recommed-2" 
+                       name="recommed">No
+                  </input>
+            </label>
+    </div>
+    <div class="form-control">
+        <label for="comment">
+            Discuss what drives your passion for coding and outline your aspirations in the field.
+
+        </label>
+
+        <!-- multi-line text input control -->
+        <textarea name="comment" id="comment-1" 
+                  placeholder="  ">
+        </textarea>
+    </div>
+
+
+    <div class="form-control">
+        <label for="comment">
+            What are some of the challenges you face while coding?
+        </label>
+
+        <!-- multi-line text input control -->
+        <textarea name="comment-2" id="comment-2" 
+                  placeholder="   ">
+        </textarea>
+    </div>
+
+    <!-- Multi-line Text Input Control -->
+    <button type="submit" value="submit">
+        Submit
+    </button>
+
+    <div class="form-control">
+        <label for="comment">
+            Please list the Data Structures you have a strong understanding of.
+        </label>
+
+        <!-- multi-line text input control -->
+        <textarea name="comment-3" id="comment-3" 
+                  placeholder="    ">
+        </textarea>
+    </div>
+
+    <!-- Multi-line Text Input Control -->
+    <button type="submit" value="submit">
+        Submit Form
+    </button>
+
+</body>
+</html>
